@@ -10,561 +10,6 @@
       },
       "platforms": [
         {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "1.0.0",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_SAMD-1.0.0.zip",
-          "archiveFileName": "Arduino_Core_SAMD-1.0.0.zip",
-          "checksum": "SHA-256:930729ae67697a7226b934df1402d32e7473327e73d4f64d64e076342f7cadf4",
-          "size": "18102332",
-          "boards": [
-            {
-              "name": "Catena4410"
-            },
-            {
-              "name": "Catena4450"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "1.0.1",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/packages/Arduino_Core_SAMD-1.0.1.zip",
-          "archiveFileName": "Arduino_Core_SAMD-1.0.1.zip",
-          "checksum": "SHA-256:2d3a4b601893e3e9db86b9b34d3ebdaf972e1bfc8d784202c91fdfda6d8465b0",
-          "size": "18102424",
-          "boards": [
-            {
-              "name": "Catena4410"
-            },
-            {
-              "name": "Catena4450"
-            },
-            {
-              "name": "Catena4460"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "1.1.0",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v1.1.0.tar.gz",
-          "archiveFileName": "Arduino_Core_SAMD-1.1.0.tar.gz",
-          "checksum": "SHA-256:145198ea4975926f8bdc0686e7b4562a0144fa435f1f18400ebde13c978cacbf",
-          "size": "6561646",
-          "boards": [
-            {
-              "name": "Catena 4410"
-            },
-            {
-              "name": "Catena 4420"
-            },
-            {
-              "name": "Catena 4450"
-            },
-            {
-              "name": "Catena 4460"
-            },
-            {
-              "name": "Catena 4470"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "1.2.0",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v1.2.0.tar.gz",
-          "archiveFileName": "Arduino_Core_SAMD-1.2.0.tar.gz",
-          "checksum": "SHA-256:4e0fccec34f859407c52b086c0fd69cd6396a0b505eab70bda2c5765aeecb133",
-          "size": "6564248",
-          "boards": [
-            {
-              "name": "Catena 4410"
-            },
-            {
-              "name": "Catena 4420"
-            },
-            {
-              "name": "Catena 4450"
-            },
-            {
-              "name": "Catena 4460"
-            },
-            {
-              "name": "Catena 4470"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "1.3.0",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v1.3.0.tar.gz",
-          "archiveFileName": "Arduino_Core_SAMD-1.3.0.tar.gz",
-          "checksum": "SHA-256:563922a24b90bdb5309a5dd102533e108bc9a0a2e1a71d9b14e888e61dc85251",
-          "size": "6564229",
-          "boards": [
-            {
-              "name": "Catena 4410"
-            },
-            {
-              "name": "Catena 4420"
-            },
-            {
-              "name": "Catena 4450"
-            },
-            {
-              "name": "Catena 4460"
-            },
-            {
-              "name": "Catena 4470"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "1.3.1",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v1.3.1.tar.gz",
-          "archiveFileName": "Arduino_Core_SAMD-1.3.1.tar.gz",
-          "checksum": "SHA-256:d5b4a1c9acdcfb898eacc38ef55395f19b41e40316a892109e0059bae499740c",
-          "size": "6564047",
-          "boards": [
-            {
-              "name": "Catena 4410"
-            },
-            {
-              "name": "Catena 4420"
-            },
-            {
-              "name": "Catena 4450"
-            },
-            {
-              "name": "Catena 4460"
-            },
-            {
-              "name": "Catena 4470"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "2.0.0",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.0.0.tar.gz",
-          "archiveFileName": "Arduino_Core_SAMD-2.0.0.tar.gz",
-          "checksum": "SHA-256:8c0ca0b4ccb1a6f0d69a0af994023baff2d530204af51c04cd26b9b5b34146d2",
-          "size": "6564331",
-          "boards": [
-            {
-              "name": "Catena 4410"
-            },
-            {
-              "name": "Catena 4420"
-            },
-            {
-              "name": "Catena 4450"
-            },
-            {
-              "name": "Catena 4460"
-            },
-            {
-              "name": "Catena 4470"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "2.1.0",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.1.0.tar.gz",
-          "archiveFileName": "Arduino_Core_SAMD-2.1.0.tar.gz",
-          "checksum": "SHA-256:86306a068853ed8e3d5c53aab771c6c338eaaaae10fc5930411984da1bad03d8",
-          "size": "6564792",
-          "boards": [
-            {
-              "name": "Catena 4410"
-            },
-            {
-              "name": "Catena 4420"
-            },
-            {
-              "name": "Catena 4450"
-            },
-            {
-              "name": "Catena 4460"
-            },
-            {
-              "name": "Catena 4470"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "2.2.0",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.2.0.tar.gz",
-          "archiveFileName": "Arduino_Core_SAMD-2.2.0.tar.gz",
-          "checksum": "SHA-256:f86536336363c491317a8e7c908f1d209de7ae10c4eb72098a07310676067466",
-          "size": "6566086",
-          "boards": [
-            {
-              "name": "Catena 4410"
-            },
-            {
-              "name": "Catena 4420"
-            },
-            {
-              "name": "Catena 4450"
-            },
-            {
-              "name": "Catena 4460"
-            },
-            {
-              "name": "Catena 4470"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
-          "name": "MCCI Catena SAMD Boards",
-          "architecture": "samd",
-          "version": "2.3.0",
-          "category": "Contributed",
-          "help": {
-            "online": "https://portal.mcci.com"
-          },
-          "url": "https://github.com/mcci-catena/ArduinoCore-samd/archive/v2.3.0.tar.gz",
-          "archiveFileName": "Arduino_Core_SAMD-2.3.0.tar.gz",
-          "checksum": "SHA-256:34d299879ab0d8d66422bd2f224655b23dd54f73ff1947e5323586fdebec9cdc",
-          "size": "8790723",
-          "boards": [
-            {
-              "name": "Catena 4410"
-            },
-            {
-              "name": "Catena 4420"
-            },
-            {
-              "name": "Catena 4450"
-            },
-            {
-              "name": "Catena 4460"
-            },
-            {
-              "name": "Catena 4470"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "arduino",
-              "version": "4.8.3-2014q1",
-              "name": "arm-none-eabi-gcc"
-            },
-            {
-              "packager": "arduino",
-              "version": "1.7.0",
-              "name": "bossac"
-            },
-            {
-              "packager": "arduino",
-              "version": "0.9.0-arduino",
-              "name": "openocd"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.1.0"
-            }
-          ]
-        },
-        {
           "name": "MCCI Catena STM32 Boards",
           "architecture": "stm32",
           "version": "1.0.0",
@@ -1919,6 +1364,41 @@
           ]
         },
         {
+          "name": "MCCI Catena STM32 V2 Boards",
+          "architecture": "stm32",
+          "version": "4.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://forum.mcci.io"
+          },
+          "url": "https://github.com/Pranau-R/Arduino_Core_STM32/archive/refs/tags/v4.0.0.tar.gz",
+          "archiveFileName": "Arduino_Core_STM32-4.0.0.tar.gz",
+          "checksum": "SHA-256:36e1f1517dbb99e6e51840261ed971be6ba7a54d0c2bf78293c17a6ee258ba7d",
+          "size": "7423183",
+          "boards": [
+            {
+              "name": "Catena5230"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "14.3.Rel1",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        },
+        {
           "name": "MCCI Connection Exerciser ",
           "architecture": "avr",
           "version": "1.0.0",
@@ -2114,6 +1594,47 @@
             }
           ],
           "version": "6-2017-q2-update",
+          "name": "arm-none-eabi-gcc"
+        },
+        {
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-toolchain-14.3.rel1-mingw-w64-i686-arm-none-eabi.zip",
+              "archiveFileName": "arm-gnu-toolchain-14.3.rel1-mingw-w64-i686-arm-none-eabi.zip",
+              "checksum": "SHA-256:836ebe51fd71b6542dd7884c8fb2011192464b16c28e4b38fddc9350daba5ee8",
+              "size": "291670457"
+            },
+            {
+              "host": "x86_64-mingw3",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-toolchain-14.3.rel1-mingw-w64-x86_64-arm-none-eabi.zip",
+              "archiveFileName": "arm-gnu-toolchain-14.3.rel1-mingw-w64-x86_64-arm-none-eabi.zip",
+              "checksum": "SHA-256:864c0c8815857d68a1bbba2e5e2782255bb922845c71c97636004a3d74f60986",
+              "size": "290006806"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-toolchain-14.3.rel1-darwin-arm64-arm-none-eabi.tar.xz",
+              "archiveFileName": "arm-gnu-toolchain-14.3.rel1-darwin-arm64-arm-none-eabi.tar.xz",
+              "checksum": "SHA-256:30f4d08b219190a37cded6aa796f4549504902c53cfc3c7e044a8490b6eba1f7",
+              "size": "137816224"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz",
+              "archiveFileName": "arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi.tar.xz",
+              "checksum": "SHA-256:8f6903f8ceb084d9227b9ef991490413014d991874a1e34074443c2a72b14dbd",
+              "size": "149789432"
+            },
+            {
+              "host": "aarch64-pc-linux-gnu",
+              "url": "https://developer.arm.com/-/media/Files/downloads/gnu/14.3.rel1/binrel/arm-gnu-toolchain-14.3.rel1-aarch64-arm-none-eabi.tar.xz",
+              "archiveFileName": "arm-gnu-toolchain-14.3.rel1-aarch64-arm-none-eabi.tar.xz",
+              "checksum": "SHA-256:2d465847eb1d05f876270494f51034de9ace9abe87a4222d079f3360240184d3",
+              "size": "148423580"
+            }
+          ],
+          "version": "14.3.Rel1",
           "name": "arm-none-eabi-gcc"
         },
         {
