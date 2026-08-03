@@ -1,0 +1,127 @@
+{
+  "packages": [
+    {
+      "name": "mcci-stm32v2",
+      "maintainer": "MCCI Corporation",
+      "websiteURL": "https://github.com/mcci-catena/arduino-boards",
+      "email": "tech-support@mcci.com",
+      "help": {
+        "online": "https://portal.mcci.com"
+      },
+      "platforms": [
+        {
+          "name": "MCCI Catena STM32 V2 Boards",
+          "architecture": "stm32",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://forum.mcci.io"
+          },
+          "url": "https://github.com/mcci-catena/MCCI_Arduino_Core_STM32/archive/refs/tags/v1.0.0.tar.gz",
+          "archiveFileName": "MCCI_Arduino_Core_STM32-1.0.0.tar.gz",
+          "checksum": "SHA-256:b937515e54c7df6fb611eeafdeec96608a7ebbc559cd619a719516e285a2b2da",
+          "size": "7414271",
+          "boards": [
+            {
+              "name": "Catena5230"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "version": "14.3.Rel1",
+              "name": "arm-none-eabi-gcc",
+              "packager": "mcci-stm32v2"
+            },
+            {
+              "version": "2018.3.23-mcci",
+              "name": "STM32Tools",
+              "packager": "mcci-stm32v2"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-windows.7z",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-windows.7z",
+              "checksum": "SHA-256:658b1231458fde3977475a12a00d11b61fca25f27fd43784317ee118b54305d4",
+              "size": "63984321"
+            },
+            {
+              "host": "x86_64-mingw3",
+              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-x86_64-mingw3.7z",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-x86_64-mingw3.7z",
+              "checksum": "SHA-256:8d8c752050ee23c01b79248271a44bf49ea76021b6080f20f6e1b23e8485a892",
+              "size": "62511711"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-apple-darwin.7z",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-apple-darwin.7z",
+              "checksum": "SHA-256:6f8614e06df9123b93d1c9ac6c43b1e903987e6341ec9970f16511f04217af06",
+              "size": "60877856"
+            },
+            {
+              "host": "aarch64-pc-linux-gnu",
+              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-aarch64-linux.7z",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-aarch64-linux.7z",
+              "checksum": "SHA-256:31aba7eecc0a6e13ec8fdd824e35794f3ee530db8a023b1ab425dd8410297f89",
+              "size": "67530967"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-x86_64-linux.7z",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-x86_64-linux.7z",
+              "checksum": "SHA-256:a660cc82b0045bb58615b7c3732c31b91b157c3a7cde2e996a5687ac96c59649",
+              "size": "69777113"
+            }
+          ],
+          "version": "14.3.Rel1",
+          "name": "arm-none-eabi-gcc"
+        },
+        {
+          "systems": [
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "i686-linux-gnu"
+            },
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "x86_64-pc-linux-gnu"
+            },
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "i686-mingw32"
+            },
+            {
+              "size": "8890145",
+              "checksum": "SHA-256:4053e786a1976eb92e6329b2ec28166c9b0057e2d60ef17d27ffff40793fdf43",
+              "archiveFileName": "STM32Tools-2018.3.23-mcci.tar.gz",
+              "url": "https://github.com/mcci-catena/arduino-boards/raw/master/BoardManagerFiles/tools/STM32Tools-2018.3.23-mcci.tar.gz",
+              "host": "i386-apple-darwin11"
+            }
+          ],
+          "version": "2018.3.23-mcci",
+          "name": "STM32Tools"
+        }
+      ]
+    }
+  ]
+}
