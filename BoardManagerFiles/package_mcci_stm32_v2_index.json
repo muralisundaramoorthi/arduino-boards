@@ -50,38 +50,38 @@
           "systems": [
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-windows.7z",
-              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-windows.7z",
-              "checksum": "SHA-256:658b1231458fde3977475a12a00d11b61fca25f27fd43784317ee118b54305d4",
-              "size": "63984321"
+              "url": "https://github.com/mcci-catena/arduino-boards/releases/download/arm-none-eabi-gcc-14.3.Rel1/arm-none-eabi-gcc-14.3.Rel1-windows.tar.bz2",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-windows.tar.bz2",
+              "checksum": "SHA-256:b0cce374904dc7731a2d64b40d8d38077155c6f84b339fe26f21aaea8dae9a7f",
+              "size": "265493360"
             },
             {
-              "host": "x86_64-mingw3",
-              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-x86_64-mingw3.7z",
-              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-x86_64-mingw3.7z",
-              "checksum": "SHA-256:8d8c752050ee23c01b79248271a44bf49ea76021b6080f20f6e1b23e8485a892",
-              "size": "62511711"
+              "host": "x86_64-mingw32",
+              "url": "https://github.com/mcci-catena/arduino-boards/releases/download/arm-none-eabi-gcc-14.3.Rel1/arm-none-eabi-gcc-14.3.Rel1-x86_64-mingw3.tar.bz2",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-x86_64-mingw3.tar.bz2",
+              "checksum": "SHA-256:6655db0799684407a5dff78688b616985ea7e8393dc191d14af8ad99e8c35dbb",
+              "size": "267022602"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-apple-darwin.7z",
-              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-apple-darwin.7z",
-              "checksum": "SHA-256:6f8614e06df9123b93d1c9ac6c43b1e903987e6341ec9970f16511f04217af06",
-              "size": "60877856"
+              "url": "https://github.com/mcci-catena/arduino-boards/releases/download/arm-none-eabi-gcc-14.3.Rel1/arm-none-eabi-gcc-14.3.Rel1-apple-darwin.tar.bz2",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-apple-darwin.tar.bz2",
+              "checksum": "SHA-256:7ebff46f0870be7dc215b32b2d44522982832dd7603fd925fec213f9f0592c61",
+              "size": "225905422"
             },
             {
-              "host": "aarch64-pc-linux-gnu",
-              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-aarch64-linux.7z",
-              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-aarch64-linux.7z",
-              "checksum": "SHA-256:31aba7eecc0a6e13ec8fdd824e35794f3ee530db8a023b1ab425dd8410297f89",
-              "size": "67530967"
+              "host": "aarch64-linux-gnu",
+              "url": "https://github.com/mcci-catena/arduino-boards/releases/download/arm-none-eabi-gcc-14.3.Rel1/arm-none-eabi-gcc-14.3.Rel1-aarch64-linux.tar.bz2",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-aarch64-linux.tar.bz2",
+              "checksum": "SHA-256:8787a1990640c117c6af31eda4f07ffd39ca04b338aed59d28a97307f1b81b2a",
+              "size": "232859331"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/muralisundaramoorthi/arduino-boards/raw/Catena52xx/BoardManagerFiles/tools/arm-none-eabi-gcc-14.3.Rel1-x86_64-linux.7z",
-              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-x86_64-linux.7z",
-              "checksum": "SHA-256:a660cc82b0045bb58615b7c3732c31b91b157c3a7cde2e996a5687ac96c59649",
-              "size": "69777113"
+              "url": "https://github.com/mcci-catena/arduino-boards/releases/download/arm-none-eabi-gcc-14.3.Rel1/arm-none-eabi-gcc-14.3.Rel1-x86_64-linux.tar.bz2",
+              "archiveFileName": "arm-none-eabi-gcc-14.3.Rel1-x86_64-linux.tar.bz2",
+              "checksum": "SHA-256:ab6bf94cc690778ae84e8123df103dd3adacba0ec45cd33eb0aab9b3ca0c8ec8",
+              "size": "233221208"
             }
           ],
           "version": "14.3.Rel1",
